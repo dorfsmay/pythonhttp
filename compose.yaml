@@ -1,0 +1,9 @@
+version: "3"
+name: pythonhttp
+
+services:
+  server:
+    image: dorfsmay/pythonhttp
+    ports: 8080:8080
+    build:
+      dockerfile: ./Dockerfile
