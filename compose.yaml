@@ -3,7 +3,7 @@ name: pythonhttp
 
 services:
   server:
-    image: dorfsmay/pythonhttp
+    image: docker.io/dorfsmay/pythonhttp
     ports: 8080:8080
     build:
       dockerfile: ./Dockerfile
